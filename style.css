@@ -7,6 +7,7 @@ body{
   padding-left: 97px;
   padding-top: 40px;
   position: relative;
+  
 }
 
 .navigation {
@@ -128,12 +129,6 @@ body{
     margin-top: 31px;
 }
 
-.rectangle {
-    position: absolute;
-    top: 0;
-    right: 100px;
-}
-
 .foni{
     position: absolute;
     right: 231px;
@@ -151,6 +146,7 @@ body{
 .section2 {
     max-height: 727px;
     background-color: #EAECEF;
+    padding-top: 66px;
 }
 
 .sect2-div1 {
