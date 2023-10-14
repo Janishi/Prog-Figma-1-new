@@ -1,0 +1,147 @@
+body{
+    position: relative;
+}
+.header {
+  background-color: #0067F4;
+  height: 768px;
+  padding-left: 97px;
+  padding-top: 40px;
+  position: relative;
+}
+
+.navigation {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.ul-list {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+}
+
+.logosvg {
+    background-color: #0067F4;
+}
+
+.ul-list li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #FFF;
+    line-height: normal;
+    text-transform: uppercase;cursor: pointer;
+
+}
+
+.home, .Portfolio, .pricing, .about {
+    margin-right: 22px;
+}
+.services {
+    margin-right: 18px;
+}
+
+.Team {
+    margin-right: 26px;
+}
+
+.contact {
+    margin-right: 88px;
+}
+
+.download {
+    margin-right: 368px;
+}
+.download-button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #0067F4;
+    line-height: normal;
+    background-color: #FDFEFE;
+    border-radius: 3px;
+    
+}
+
+/* section 1 */
+
+.section1 {
+    
+    position: absolute;
+    top: 265px;
+    left: 97px;
+}
+
+.h1-div {
+    width: 408px;
+    margin-bottom: 12px;
+}
+
+.h1-div h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: #FFF;
+    
+}
+
+.block1-p{
+    width: 533px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    margin-bottom: 31px;
+    
+}
+
+.button1, .button2 {
+    background-color: #FDFEFE;
+    border-radius: 50px;
+    width: 117px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0067F4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button1 {
+    margin-right: 34px;
+}
+.button2{
+    background: rgba(255, 255, 255, 0.00);
+    border: 2px solid #FFF;
+    color: #FFF;
+}
+
+.buttons-div {
+    display: flex;
+    align-items: center;
+    margin-top: 31px;
+}
+
+.rectangle {
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+
+.foni{
+    position: absolute;
+    right: 231px;
+    top: 200px;
+}
+
+.laptop {
+    position: absolute;
+    right: 301px;
+    top: 290px;
+}
