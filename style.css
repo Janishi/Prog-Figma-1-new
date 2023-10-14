@@ -145,3 +145,35 @@ body{
     right: 301px;
     top: 290px;
 }
+
+/* Section2 styles */
+
+.section2 {
+    max-height: 727px;
+    background-color: #EAECEF;
+}
+
+.sect2-div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.sect2-div1 h2 {
+    color: #000;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sect2-div1 p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    width: 596px;
+    margin-top: 25px;
+    text-align: center;
+}
