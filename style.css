@@ -1,12 +1,13 @@
-body{
+/* body{
     position: relative;
-}
+} */
 .header {
   background-color: #0067F4;
   height: 768px;
   padding-left: 97px;
   padding-top: 40px;
   position: relative;
+  overflow: hidden;
   
 }
 
@@ -15,6 +16,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     
 }
 
@@ -147,6 +149,11 @@ body{
     max-height: 727px;
     background-color: #EAECEF;
     padding-top: 66px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .sect2-div1 {
@@ -172,4 +179,61 @@ body{
     width: 596px;
     margin-top: 25px;
     text-align: center;
+}
+
+.rectangle {
+    width: 546px;
+    height: 1100px;
+    background: rgba(196, 196, 196, 0.50);
+    position: absolute;
+    top: -130px;
+    right: 230px;
+    transform: rotate(-19deg);
+    opacity: 0.7;
+}
+
+.sect2-div2-main{
+    display: flex;
+    margin-top: 123px;
+}
+.main-box1 {
+    width: 300px;
+    height: 300px;
+    background: #FFF;
+}
+
+.h3-div {
+    display: flex;
+    align-items: center;
+    margin-left: 31px;
+    margin-top: 28px;
+    margin-right: 17px;
+}
+.box1 {
+    margin-right: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box2 {
+    margin-right: 58px;
+}
+
+.box1 h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 29px;
+    font-weight: 300;
+}
+
+.box1-p1 {
+    width: 240px;
+    height: 83px;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    
 }
