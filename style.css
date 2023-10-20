@@ -253,6 +253,12 @@
 
 .section3 {
     background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 79px;
+    padding-bottom: 140px;
 }
 
 .all-work-div {
@@ -260,6 +266,59 @@
     background: linear-gradient(90deg, #0372F1 0%, #00F2FE 100%);
     width: 200px;
     height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
 
 }
 
+.all-work-div li {
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sec3-container2 {
+    display: flex;
+    align-items: start;
+}
+
+.images {
+    width: 687px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section3 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 139px;
+}
+
+.sec3-ul {
+    margin-right: 106px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec3-ul li {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sec3-ul li:nth-child(2){
+    margin-bottom: 28px;
+}
+
+.sec3-ul li:nth-child(3){
+    margin-bottom: 29px;
+}
+.sec3-ul li:nth-child(4){
+    margin-bottom: 20px;
+}
