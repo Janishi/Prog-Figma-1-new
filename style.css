@@ -138,12 +138,14 @@ body {
     position: absolute;
     right: 231px;
     top: 200px;
+    z-index: 2;
 }
 
 .laptop {
     position: absolute;
     right: 301px;
     top: 290px;
+    z-index: 3;
 }
 
 /* Section2 styles */
@@ -486,4 +488,45 @@ body {
     position: absolute;
     top: 92px;
     right: 180px;
+}
+/* Section6 styles */
+
+.Section6 {
+    background-color: #EAECEF;
+    padding-top: 60px;
+    margin-top: 748px;
+}
+
+.sec6-bl1 h4 {
+    color: #0370F3;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.sec6-p1 {
+    max-width: 562px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px; /* 118.182% */
+    letter-spacing: 1.65px;
+    margin-top: 2px;
+    margin-bottom: 42px;
+}
+
+.sec6-p2 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 540px;
+    
 }
