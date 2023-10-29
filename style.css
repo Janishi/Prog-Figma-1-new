@@ -458,6 +458,7 @@ body {
     color: #000;
     font-size: 45px;
     line-height: 65px;
+    
 }
 
 .sec5-block1-p2 {
@@ -473,6 +474,10 @@ body {
     max-width: 414px;
     margin-left: 11px;
     margin-top: 11px;
+    display: none;
+}
+.sec5-block1-p3.active {
+    display: block;
 }
 
 .block-p2 {
@@ -489,12 +494,30 @@ body {
     top: 92px;
     right: 180px;
 }
+#sec5_button {
+    border: none;
+}
+
 /* Section6 styles */
 
 .Section6 {
     background-color: #EAECEF;
     padding-top: 60px;
+    padding-bottom: 204px;
     margin-top: 748px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.sec6-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec6-bl1 {
+    margin-top: 81px;
 }
 
 .sec6-bl1 h4 {
@@ -529,4 +552,88 @@ body {
     line-height: normal;
     max-width: 540px;
     
+}
+
+.sec6-p3 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 540px;
+    margin-top: 20px;
+}
+
+.sec6_bl2_div1 {
+    width: 459px;
+    height: 313px;
+    border-radius: 62px;
+    background: #E8ECEF;
+    box-shadow: -6px 4px 6px 5px rgba(0, 0, 0, 0.25);
+    margin-top: 181px;
+}
+
+.sec6_bl2_div1 img {
+    margin-top: 16px;
+    margin-left: 6px;
+}
+
+.sec6_bl2_div2 {
+    width: 459px;
+    height: 313px;
+    border-radius: 62px;
+    background: #FBFBFB;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 231px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec6-bl2 {
+    position: relative;
+}
+
+.sec6_bl2_div2_p1{
+    width: 383px;
+    text-align: left;
+    margin-top: 58px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sec6_bl2_div2_div1{
+    width: 459px;
+    height: 2px;
+    background: #D8CFCF;
+    margin-top: 29px;
+}
+
+.sec6_bl2_div2_div2{
+    display: flex;
+    align-items: center;
+    margin-top: 41px;
+    margin-bottom: 46px;
+}
+
+.sec6_bl2_div2_div2_div1{
+    margin-left: 16px;
+    margin-right: 83px;
+}
+
+.sec6_arrows {
+    position: absolute;
+    bottom: 71.77px;
+    left: 215px;
+}
+
+.arrow1 {
+    margin-right: 27px;
 }
