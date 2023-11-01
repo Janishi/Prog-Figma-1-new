@@ -717,3 +717,114 @@ body {
 .img1, .img2 {
     margin-right: 70px;
 }
+
+/* section8 styles */
+
+.section8 {
+    background-color: #EAECEF;
+    padding-top: 89px;
+}
+
+.sec8_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec8_h4 {
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 83px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.sec8_p1, .sec8_p2 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.sec8_p1 {
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+
+.sec8_p2 {
+    margin-bottom: 59px;
+}
+
+.map {
+    padding-bottom: 42px;
+}
+
+.sec8_contacts {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    justify-content:space-between;
+    margin-bottom: 95px;
+}
+.sec8_contacts_p1 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+   
+
+}
+
+.sec8_contacts_block1 {
+    display: flex;
+    justify-content: center;
+}
+
+.sec8_contacts_block1_img {
+    margin-right: 24px;
+}
+
+.sec8_message{
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.sec8_message_p1 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 14px;
+    margin-right: 13px;
+
+}
+
+.sec8_message_p2 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.sec8_inputs {
+    width: 100%;
+    max-width: 1040px;
+}
+
+.sec8_name_div {
+    
+}
