@@ -823,8 +823,56 @@ body {
 .sec8_inputs {
     width: 100%;
     max-width: 1040px;
+    margin-bottom: 31px;
+    
 }
 
 .sec8_name_div {
+    margin-top: 8px;
+    position: relative;
     
 }
+
+.sec8_name_div input {
+    width: 100%;
+    max-width: 445px;
+    border: 3px solid #B6B3B3;
+    background: #FFF;
+    padding: 10px ;
+    
+    
+}
+
+.sec8_name {
+    color: #9D9595;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    
+} 
+
+.sce8_name_button {
+    position: absolute;
+    top: 7px;
+    left: 405px;
+    border: none;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.sec8_name_input::placeholder{
+    color: #9D9595;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
