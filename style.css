@@ -723,6 +723,7 @@ body {
 .section8 {
     background-color: #EAECEF;
     padding-top: 89px;
+    padding-bottom: 90px;
 }
 
 .sec8_container {
@@ -820,53 +821,80 @@ body {
 
 }
 
-.sec8_inputs {
+.sec8_name {
+    width: 445px;
+    position: relative;
+}
+
+.sec8_name input {
+    width: 100%;
+    padding: 10px;
+}
+
+.sec8_formContainer{
     width: 100%;
     max-width: 1040px;
-    margin-bottom: 31px;
-    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 47px;
+
 }
 
-.sec8_name_div {
-    margin-top: 8px;
-    position: relative;
-    
+.name_email {
+    margin-right: 95px;
 }
 
-.sec8_name_div input {
-    width: 100%;
-    max-width: 445px;
-    border: 3px solid #B6B3B3;
-    background: #FFF;
-    padding: 10px ;
-    
-    
-}
-
-.sec8_name {
-    color: #9D9595;
-    text-align: left;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    
-    
-} 
-
-.sce8_name_button {
+.name_logo, .email_logo {
     position: absolute;
-    top: 7px;
-    left: 405px;
-    border: none;
-    background-color: transparent;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
+    top: 40px;
+    right: 10px;
 }
 
-.sec8_name_input::placeholder{
+.email_logo {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+
+.email_logo {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.name_logo {
+    width: 20px;
+    height: 20.854px;
+    flex-shrink: 0;
+}
+
+.label, .massage_label {
+    color: #9D9595;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.input {
+    margin-top: 8px;
+}
+
+.Massage {
+    width: 1040px;
+    height: 129px;
+    flex-shrink: 0;
+    margin-top: 18px;
+    padding-bottom: 65px;
+    padding-left: 13px;
+    
+}
+
+.input::placeholder, .Massage::placeholder {
     color: #9D9595;
     text-align: left;
     font-family: Poppins;
@@ -876,3 +904,28 @@ body {
     line-height: normal;
 }
 
+.message_container {
+    position: relative;
+}
+
+.message_logo {
+    position: absolute;
+    top: 70px;
+    right: 25px;
+    
+}
+
+.submit {
+    width: 161px;
+    height: 33px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #0067F4;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 38px;
+}

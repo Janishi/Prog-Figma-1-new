@@ -326,26 +326,28 @@
                 </p>
             </div>
             <div class="sec8_inputs">
-                <div class="name_email">
-                    <div class="sec8_name">
-                        <label for="Name">Name</label>
-                        <div class="sec8_name_div">
-                            <input class="sec8_name_input" type="text" placeholder="Name">
-                            <button class="sce8_name_button"><img src="images/name.png" alt=""></button>
+                <form action="">
+                    <div class="sec8_formContainer">
+                        <div class="sec8_name name_email">
+                            <label class="label" for="Name">Name</label>
+                            <input class="input" type="text" id="Name" name="Name" placeholder="Name">
+                            <img class="name_logo" src="images/name.png" alt="">
+                        </div>
+                       
+                        <div class="sec8_name ">
+                            <label class="label" for="Email">Email</label>
+                            <input class="input" type="text" id="Email" name="Email" placeholder="Email">
+                            <img  class="email_logo" src="images/mail_outline.png" alt="">
                         </div>
                     </div>
-                   
-                    <div class="sec8_email">
-                        <label for="Name">Name</label>
-                        <div class="sec8_name_div">
-                            <input class="sec8_name_input" type="text" placeholder="Name">
-                            <button class="sce8_name_button"><img src="images/name.png" alt=""></button>
-                        </div>
+                    <div class="message_container">
+                        <label class="massage_label" for="Massage">Message</label><br>
+                        <input class="Massage"  type="text" id="Massage" name="Massage" placeholder="Message">
+                        <img class="message_logo" src="images/message.png" alt="">
                     </div>
-                </div>
-                <div class="sec8_messages">
-
-                </div>
+                    <input class="submit" type="submit" value="SEND MESSAGE">
+                </form>
+                
             </div>
         </div>
     </section>
