@@ -929,3 +929,56 @@ body {
     line-height: normal;
     margin-top: 38px;
 }
+/* section 9 styles */
+
+.section9 {
+    background-color: #121B2E;;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+.sec9_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fa-laptop{
+    font-size: 78px;
+    color: #fff;
+}
+
+.fa-brands {
+    color: white;
+}
+
+.sec9_p1, .sec9_p2, .sec9_p3 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.sec9_p3 span {
+    color: #0067F4;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fa-laptop {
+    margin-bottom: 44px;
+}
+.sec9_container div {
+    max-width: 92px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.sec9_p2 {
+    margin-top: 5px;
+    margin-bottom: 26px;
+}
