@@ -6,6 +6,7 @@
     <title>Figma Project 1</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +20,7 @@
 </head>
 <body>
     <header class="header">
-        <nav class="navigation">
+        <nav class="navigation" id="navigation">
             <div class="logo">
                 <a href="index.html"><img class="logosvg" src="images/logo.svg" alt=""></a>
             </div>
@@ -36,7 +37,10 @@
                 <button class="download-button">Download</button>
             </div>
         </nav>
+        
         <div class="rectangle"></div>
+        <div class="burger" id="burger"><i class="fa-solid fa-bars"></i></div>
+        
     </header>
     
     
@@ -367,5 +371,5 @@
         </div>
     </section>
     <script src="script.js"></script>
-</body>
+</body> 
 </html>

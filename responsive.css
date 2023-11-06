@@ -1,0 +1,17 @@
+/* for mobile */
+
+@media screen and (max-width: 767px) {
+    .navigation {
+        display: none;
+    }
+    .navigation.active_nav {
+        display: block;
+        flex-direction: column;
+        
+    }
+    
+    .burger {
+        display: block;
+    }
+    
+}
