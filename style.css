@@ -151,7 +151,7 @@ body {
 /* Section2 styles */
 
 .section2 {
-    max-height: 727px;
+    /* max-height: 727px; */
     background-color: #EAECEF;
     padding-top: 66px;
     padding-bottom: 100px;
@@ -988,7 +988,7 @@ body {
 .burger {
     position: absolute;
     top: 50px;
-    right: 100px;
+    right: 50px;
     font-size: 25px;
     display: none;
     cursor: pointer;
