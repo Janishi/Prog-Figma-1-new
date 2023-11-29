@@ -1,6 +1,4 @@
-/* body{
-    position: relative;
-} */
+
 body {
     font-family: Poppins;
 }
@@ -24,10 +22,12 @@ body {
 }
 
 .ul-list {
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
     display: flex;
     justify-content: space-between;
     margin-left: 140px;
+    
 }
 
 .logosvg {
@@ -39,8 +39,9 @@ body {
     font-size: 14px;
     color: #FFF;
     line-height: normal;
-    text-transform: uppercase;cursor: pointer;
-
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 111;
 }
 
 .home, .Portfolio, .pricing, .about {
@@ -60,6 +61,8 @@ body {
 
 .download {
     margin-right: 368px;
+    z-index: 112111;
+    
 }
 .download-button {
     font-family: 'Poppins', sans-serif;
@@ -68,13 +71,14 @@ body {
     line-height: normal;
     background-color: #FDFEFE;
     border-radius: 3px;
+    cursor: pointer;
     
 }
 
 /* section 1 */
 
-.section1 {
-    
+
+.block1 {
     position: absolute;
     top: 265px;
     left: 97px;
@@ -94,7 +98,8 @@ body {
 }
 
 .block1-p{
-    width: 533px;
+    width: 100%;
+    max-width: 533px;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -767,10 +772,8 @@ body {
 
 .sec8_contacts {
     display: flex;
-    max-width: 1040px;
-    width: 100%;
-    justify-content:space-between;
     margin-bottom: 95px;
+    gap: 55px;
 }
 .sec8_contacts_p1 {
     font-family: Poppins;

@@ -101,7 +101,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
-    margin-left: 430px;
+    /* margin-left: 430px; */
   }
   .sec8_inputs {
     display: flex;
@@ -119,10 +119,69 @@
     max-width: 500px;
   }
   .sec8_message{
-    display: felx;
+    display: flex;
     justify-content: center;
   }
   .img1, .img2 {
     margin-left: 70px;
   }
+  
+}
+
+@media screen and (max-width: 390px){
+  .h1-div h1  {
+    font-size: 35px;
+    margin-right: 55px;
+    margin-bottom: 55px;
+  }
+  .block1-p{
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .buttons-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 45px;
+  }
+
+  .button1 {
+    margin-left: 34px;
+  }
+
+  .block1 {
+    position: absolute;
+    right: 100px;
+  }
+  .sect2-div1 p {
+    font-size: 15px;
+    width: 100%;
+    max-width: 500px;
+    
+  }
+  .section3 h2{
+    text-align: center;
+    font-size: 35px;
+  }
+  .sec3-ul {
+    margin-right: 230px;
+  }
+  .images {
+    margin-left: 20%;
+    max-width: 200px;
+    width: 100%;
+  }
+  .Section4 h2{
+    font-size: 50px;
+  }
+  .Section4 p {
+    font-size: 14px;
+    text-align: center;
+    
+  }
+  .sec4-p {
+    margin-bottom: 20px;
+  }
+  
 }
